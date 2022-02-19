@@ -87,3 +87,5 @@ $(document).ready(function(){
         var src = $(e.target).attr('data-remote');
         if (src) $(this).ekkoLightbox();
       });
+
+      
