@@ -32,6 +32,13 @@ $(document).ready(function(){
         });
         
     });
+    //loading
+     //<![CDATA[
+      $(window).bind("load", function() {
+        jQuery("#status").fadeOut();
+        jQuery("#loader").fadeOut();
+    });
+    //]]>
     //slider detail
     $('#myCarousel').carousel({
         interval: false
